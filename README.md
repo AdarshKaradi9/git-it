@@ -1,12 +1,6 @@
-# Git Practice
+# Git Made Easy
 
-I am just practicing some git's command in it.
-
-## Why ?
-
-Everything is being practiced for manual doing!
-
-## Commands Practiced
+## Commands
 * `git config –global user.name "[name]`
     > This command is used to set the author name and email address respectively to be used with your commits.
 
