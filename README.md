@@ -29,7 +29,8 @@ Everything is being practiced for manual doing!
     > Giving the message to your change that you and other dev's can understand.
 
 * `git commit -m <MESSAGE> -m <DESCRIPTION>`
-    > You can add some description to the commit message, describing your own commit.
+    > You can add some description to the commit message, describing your own commit. 
+    > In case of husky error use -n short for --no-verify.
 
 * `git commit -am <MESSAGE>`
     > This command can directly add and commit simultaneouly.
@@ -70,6 +71,21 @@ Everything is being practiced for manual doing!
 * `git reset --hard origin main`
     > It will reset all the changes that has been made yet from origin.
 
+## Start developing in new branch
+1. `git checkout master`
+2. `git checkout -b <NEW_BRANCH_NAME>
+3. This will switch to new branch then develop the new feature in this branch
+4. `git add .`
+5. `git commit -m <MESSAGE> -m <DESCRIPTION>`
+6. `git push -u origin <NEW_BRANCH_NAME>`
+
+## Stashing
+1. `git stash`
+2. This will temporarily shelves (or stashes) changes made to in working copy so that we can work on something else such as changing branch, and then come back on the branch and re-apply them later on. Used when we are mid-way through a code change and aren't quite ready to commit.
+3. `git stash apply`
+4. This will re-apply the stashed changes
+
 ## Merging a branch to master
-1. > git checkout master
+1. `git checkout master`
+2. `git
     
