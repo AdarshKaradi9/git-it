@@ -88,6 +88,6 @@ Everything is being practiced for manual doing!
 ## Merging a branch to master
 1. `git checkout master`
 2. Change the branch to master or branch to which the new branch needs to be merged with. 
-3. `git merge <BRANCH NAME>
+3. `git merge <BRANCH NAME>`
 4. Put the branch name which is to be merged with the master branch
     
