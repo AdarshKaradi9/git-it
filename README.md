@@ -77,7 +77,7 @@ Everything is being practiced for manual doing!
 3. This will switch to new branch then develop the new feature in this branch
 4. `git add .`
 5. `git commit -m <MESSAGE> -m <DESCRIPTION>`
-6. `git push -u origin <NEW_BRANCH_NAME>`
+6. `git push -u origin <NEW BRANCH NAME>`
 
 ## Stashing
 1. `git stash`
