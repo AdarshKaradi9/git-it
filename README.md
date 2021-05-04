@@ -8,7 +8,7 @@ Everything is being practiced for manual doing!
 
 ## Commands Practiced
 * `git config –global user.name "[name]`
-    > This command sets the author name and email address respectively to be used with your commits.
+    > This command is used to set the author name and email address respectively to be used with your commits.
 
 * `git init`
     > It will initialize git in the working folder.
@@ -69,3 +69,7 @@ Everything is being practiced for manual doing!
     > This will show all the commits that has been made yet.
 * `git reset --hard origin main`
     > It will reset all the changes that has been made yet from origin.
+
+## Merging a branch to master
+1. > git checkout master
+    
