@@ -3,4 +3,4 @@
 ## Git Commands
 
 - ### `git config`
-sdf
+This command sets the author name and email address respectively to be used with your commits.
