@@ -81,7 +81,7 @@ Everything is being practiced for manual doing!
 
 ## Stashing
 1. `git stash`
-2. This will temporarily shelves (or stashes) changes made to in working copy so that we can work on something else such as changing branch, and then come back on the branch and re-apply them later on. Used when we are mid-way through a code change and aren't quite ready to commit.
+2. This command temporarily shelves (or stashes) changes made to in working copy so that we can work on something else such as changing branch, and then come back on the branch and re-apply them later on. Used when we are mid-way through a code change and aren't quite ready to commit.
 3. `git stash apply`
 4. This will re-apply the stashed changes
 
