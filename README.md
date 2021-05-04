@@ -73,7 +73,7 @@ Everything is being practiced for manual doing!
 
 ## Start developing in new branch
 1. `git checkout master`
-2. `git checkout -b <NEW_BRANCH_NAME>
+2. `git checkout -b <NEW BRANCH NAME>`
 3. This will switch to new branch then develop the new feature in this branch
 4. `git add .`
 5. `git commit -m <MESSAGE> -m <DESCRIPTION>`
