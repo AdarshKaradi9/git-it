@@ -89,5 +89,5 @@
     `git merge <BRANCH NAME>`
     
 ## Important links
-    > https://try.github.io/
+    > https://try.github.io/  
     > https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
