@@ -2,6 +2,7 @@
 ## Tips:
     > Keep less number of commits to keep the commit history clean
     > Commit message and desription should be readable and understandable
+    > https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
 ## Commands
 * `git config –global user.name "[name]`
     > This command is used to set the author name and email address respectively to be used with your commits.
