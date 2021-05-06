@@ -83,11 +83,11 @@
 4. This will re-apply the stashed changes
 
 ## Merging a branch to master
-1. `git checkout master`
-2. Change the branch to master or branch to which the new branch needs to be merged with. 
-3. `git merge <BRANCH NAME>`
-4. Put the branch name which is to be merged with the master branch
+1. Change the branch to master or branch to which the new branch needs to be merged with.
+    `git checkout master`
+2. Put the branch name which is to be merged with the master branch
+    `git merge <BRANCH NAME>`
     
 ## Important links
-> https://try.github.io/
-> https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
+    > https://try.github.io/
+    > https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
