@@ -1,5 +1,7 @@
 # Git Made Easy
-
+## Tips:
+    > Keep less number of commits to keep the commit history clean
+    > Commit message and desription should be readable and understandable
 ## Commands
 * `git config –global user.name "[name]`
     > This command is used to set the author name and email address respectively to be used with your commits.
