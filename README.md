@@ -7,6 +7,9 @@
 * `git config –global user.name "[name]`
     > This command is used to set the author name and email address respectively to be used with your commits.
 
+* `git config --global credential.helper store`
+    > It will store the credentials
+
 * `git init`
     > It will initialize git in the working folder.
 
