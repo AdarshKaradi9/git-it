@@ -71,6 +71,10 @@
 * `git reset --hard origin main`
     > It will reset all the changes that has been made yet from origin.
 
+## Managing Username/Passwords on multiple GitHub accounts (Windows)
+If you have one computer and two different github accounts. One is for work, the other is for my personal stuff. We can't use the same ssh key twice, so we have to use different ssh key for each of my accounts. How do I do that? How do I switch between these ssh keys?  
+https://gist.github.com/aprilmintacpineda/f101bf5fd34f1e6664497cf4b9b9345f#:~:text=Done!,can%20differentiate%20between%20the%20two
+
 ## Start developing in new branch
 1. `git checkout master`
 2. `git checkout -b <NEW BRANCH NAME>`
