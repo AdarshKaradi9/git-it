@@ -84,10 +84,14 @@ https://gist.github.com/aprilmintacpineda/f101bf5fd34f1e6664497cf4b9b9345f#:~:te
 6. `git push -u origin <NEW BRANCH NAME>`
 
 ## Stashing
-1. `git stash`
-2. This command temporarily shelves (or stashes) changes made to in working copy so that we can work on something else such as changing branch, and then come back on the branch and re-apply them later on. Used when we are mid-way through a code change and aren't quite ready to commit.
-3. `git stash apply`
-4. This will re-apply the stashed changes
+https://www.freecodecamp.org/news/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a/
+1. `git stash` This command temporarily shelves (or stashes) changes made to in working copy so that we can work on something else such as changing branch, and then come back on the branch and re-apply them later on. Used when we are mid-way through a code change and aren't quite ready to commit.
+2. `git stash save “Your stash message"` this will stash with a message.
+3. `git stash list` will list all the stashes.
+4. `git stash apply stash@{1}` we can apply any stash from the stash stack, it is useful when dealing with multiple branches.
+5. `git stash pop stash@{1}` applies the stash and removes it from the stash stack
+6. `git stash show` to see the full diff.
+7. `git stash drop stash@{1}` to drop the stash from stack
 
 ## Merging a branch to master
 1. Change the branch to master or branch to which the new branch needs to be merged with.
