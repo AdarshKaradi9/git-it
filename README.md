@@ -1,8 +1,4 @@
 # Git Made Easy
-## Tips:
-    > Keep less number of commits to keep the commit history clean
-    > Commit message and desription should be readable and understandable
-    
 ## Commands
 * `git config –global user.name "[name]`
     > This command is used to set the author name and email address respectively to be used with your commits.
@@ -98,6 +94,10 @@ https://www.freecodecamp.org/news/useful-tricks-you-might-not-know-about-git-sta
     `git checkout master`
 2. Put the branch name which is to be merged with the master branch
     `git merge <BRANCH NAME>`
+
+## Tips:
+    > Keep less number of commits to keep the commit history clean
+    > Commit message and desription should be readable and understandable
     
 ## Important links
     > https://try.github.io/  
