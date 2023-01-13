@@ -102,3 +102,10 @@ https://www.freecodecamp.org/news/useful-tricks-you-might-not-know-about-git-sta
 ## Important links
     > https://try.github.io/  
     > https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/
+
+
+## Errors
+1.  Unmodified files getting staged after `git add -A`. This happens because meta data of the files changed but not the file content
+    > git config --unset core.filemode
+
+    > git config --global core.filemode false
